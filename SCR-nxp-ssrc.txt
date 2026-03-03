@@ -1,0 +1,9 @@
+NXP Software Content Register
+
+Package:                   nxp-ssrc
+Version:                   2.2.3
+Outgoing License:          BSD 3-clause "New" or "Revised" License
+License File:              COPYING
+Release Location:          https://github.com/nxp-imx/nxp-ssrc
+Description and comments:  Synchronous Sample Rate Convertor for ARM Cortex-A
+Origin:                    NXP (BSD-3-Clause)

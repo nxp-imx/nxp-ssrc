@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=/usr
+datadir=/usr/share
+bindir=/unit_tests
+libdir=/usr/lib
+includedir=/usr/include
+datadir=/usr/share
+
+Name: NXP SSRC
+Description: SSRC from NXP
+Version: 2.2.3
+Libs: -L${libdir}
+Cflags: -I${includedir}

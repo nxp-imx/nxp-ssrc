@@ -1,0 +1,32 @@
+Release notes for SSRC Library Users
+=============================
+--  'src' directory contains the C test code using ssrc libaray
+--  'include' directory contains the C header to build ssrc test code 
+
+Build Type: arm64
+
+Building the SSRC Sample Test
+-------------------------
+make
+
+Running the SSRC test utility
+------------------------
+Expects input in wav format(.wav) and generates .wav
+
+./ssrcArmNeon
+
+Usage: ./ssrcArmNeon <input file>  <output file> <output sampling rate> <qualityHigh,qualityMedium,qualityLow>
+        --- intput file: input file for conversion, 32bit format, 1 or 2 channels
+        --- output file: output file for converted audio
+        --- output sample rate: output Frequency
+        --- quality: qualityHigh,qualityMedium,qualityLow
+
+Example:
+./ssrcArmNeon sr44100_s32_1khz.wav  out_441k_48k.wav 48000 qualityLow
+
+Supported rate:
+8000 11025 12000 16000 22050 24000 32000 44100 48000 64000 88200 96000 176400 192000 352800 384000 768000
+(bypass mode (same sample rate conversion) is not supported)
+
+End of file reached
+
