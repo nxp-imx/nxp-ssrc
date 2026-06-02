@@ -2,23 +2,23 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2026-03-13T07:11:47Z",
+    "created": "2026-06-02T02:57:35Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.26"
   },
-  "name": "nxp-ssrc-main",
+  "name": "nxp-ssrc-lf-6.18.20-2.0.0",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/775e00a8-f754-4aad-b359-411891c5f460",
+  "documentNamespace": "https://nxp.com/spdx/83371ef0-e10c-4917-b305-68f440cf1cb8",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-775e00a8-f754-4aad-b359-411891c5f460",
+      "SPDXID": "SPDXRef-package-83371ef0-e10c-4917-b305-68f440cf1cb8",
       "name": "nxp-ssrc",
-      "versionInfo": "main",
+      "versionInfo": "lf-6.18.20-2.0.0",
       "licenseConcluded": "(BSD-3-Clause)",
       "licenseDeclared": "(BSD-3-Clause)",
-      "downloadLocation": "https://github.com/nxp-imx/nxp-ssrc",
+      "downloadLocation": "https://github.com/nxp-imx/nxp-ssrc -b lf-6.18.20-2.0.0",
       "originator": "Organization: NXP",
       "supplier": "NOASSERTION",
       "externalRefs": [],
@@ -29,7 +29,7 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-775e00a8-f754-4aad-b359-411891c5f460"
+      "relatedSpdxElement": "SPDXRef-package-83371ef0-e10c-4917-b305-68f440cf1cb8"
     }
   ]
 }
